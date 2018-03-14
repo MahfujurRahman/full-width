@@ -1,0 +1,97 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+
+.full-home-page{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: papayawhip;
+    height: 750px;
+    position: relative;
+    margin-top: 3.5%;
+}
+
+.text-area {
+    background-color: #1784c7;
+    color: #fff;
+    position: relative;
+    padding: 60px 150px 60px 0px;
+  }
+
+  .singel-slide {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .text-area:before {
+    position: absolute;
+    content: "";
+    left: -1000%;
+    background-color: #1784c7;
+    height: 100%;
+    width: 1000%;
+    top: 0;
+  }
+
+  .text-area::after {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #1784c7;
+    right: -12px;
+    top: 70px;
+    transform: rotate(45deg);
+  }
+
+  .text-area h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .text-area p {
+    font-size: 30px;
+    line-height: 40px;
+    color: #a0daff;
+    padding-bottom: 30px;
+  }
+
+  .book {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #333;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
